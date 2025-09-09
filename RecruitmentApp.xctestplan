@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "78344CDD-1971-4EA4-A8D9-6F1041CDB7EB",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:RecruitmentApp.xcodeproj",
+      "identifier" : "6B92499E2E6F694B00800E3E",
+      "name" : "RecruitmentApp"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:RecruitmentApp.xcodeproj",
+        "identifier" : "6B9249AE2E6F694C00800E3E",
+        "name" : "RecruitmentAppTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:RecruitmentApp.xcodeproj",
+        "identifier" : "6B9249B82E6F694C00800E3E",
+        "name" : "RecruitmentAppUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
